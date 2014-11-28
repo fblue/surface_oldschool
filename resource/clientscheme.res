@@ -904,12 +904,12 @@ Scheme{Colors{
 				"dropshadow"	"1"
 			}
 		}
-		surfaceNumbers14
+		surfaceNumbers13
 		{
 			"1"
 			{
 				"name"		"Surface Numbers Medium"
-				"tall"		"14"
+				"tall"		"13"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"

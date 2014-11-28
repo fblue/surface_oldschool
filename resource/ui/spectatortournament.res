@@ -225,8 +225,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"surfaceNumbers14"
-				"xpos"			"62"
+				"font"			"surfaceNumbers13"
+				"xpos"			"63"
 				"ypos"			"2"
 				"zpos"			"36"
 				"wide"			"27"
