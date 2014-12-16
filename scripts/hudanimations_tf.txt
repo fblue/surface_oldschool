@@ -219,14 +219,15 @@ event DamagedPlayer
 
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.4
+	Animate PlayerStatusHealthBonusImage	Alpha		"255"		Linear 0.0 0.2
+	Animate PlayerStatusHealthBonusImage	Alpha		"0"		Linear 0.2 0.4
 
-	Animate PlayerStatusHealthvalue         FgColor "buffed HP"          linear 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow   FgColor "buff shadow"          linear 0.0 0.0
-	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID buffed HP" linear 0.0 0.0
+	Animate PlayerStatusHealthvalue			FgColor "buffed HP"				linear 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow	FgColor "buff shadow"			linear 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow2	FgColor "m0re shadow"			linear 0.0 0.0
+	Animate PlayerStatusHealthvalueTargetID	FgColor "TargetID buffed HP"	linear 0.0 0.0
 
-    RunEvent HudHealthBonusPulseLoop	0.4
+	RunEvent HudHealthBonusPulseLoop 0.4
 }
 
 event HudHealthBonusPulseLoop
@@ -238,9 +239,10 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthvalue         fgcolor "HP" accel 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow   fgcolor "0 0 0 255" accel 0.0 0.0
-	Animate PlayerStatusHealthvalueTargetID fgcolor "HP" accel 0.0 0.0
+	Animate PlayerStatusHealthvalue			fgcolor "HP"		accel 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow	fgcolor "0 0 0 255"	accel 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow2	fgcolor "0 0 0 0"	accel 0.0 0.0
+	Animate PlayerStatusHealthvalueTargetID	fgcolor "HP"		accel 0.0 0.0
 }
 
 //===========================================

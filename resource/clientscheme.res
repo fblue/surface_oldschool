@@ -9,6 +9,7 @@ Scheme{Colors{
 	"low HP"				"255 255 255 255"
 	"buffed HP"				"255 255 255 255"
 	"buff shadow"			"50 205 50 255" // "0 0 0 255" to remove the green buff shadow
+	"m0re shadow"			"0 0 0 255" // "0 0 0 0" if you use black buff shadow
 	
 	"TargetID low HP"		"255 165 0 255"
 	"TargetID buffed HP"	"50 205 50 255"

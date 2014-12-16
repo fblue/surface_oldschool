@@ -89,6 +89,23 @@
 		"fgcolor"					"0 0 0 255"
 	}
 	
+	"PlayerStatusHealthValueShadow2"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"PlayerStatusHealthValueShadow2"
+		"xpos"						"231"
+		"ypos"						"11"
+		"zpos"						"5"
+		"wide"						"152"
+		"tall"						"102"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					"%Health%"
+		"textAlignment"				"center"
+		"font"						"surface60"
+		"fgcolor"					"0 0 0 0"
+	}
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"				"ImagePanel"
