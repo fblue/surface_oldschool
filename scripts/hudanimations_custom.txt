@@ -22,7 +22,7 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthvalueShadow	FgColor	"buff shadow"		linear 0.0 0.0
 	Animate PlayerStatusHealthvalueShadow2	FgColor "m0re shadow"		linear 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID	FgColor	"TargetID buffed"	linear 0.0 0.0
-	Animate TournamentSpectatorHealth		FgColor	"50 205 50 255"		linear 0.0 0.0
+	Animate TournamentSpectatorHealth		FgColor	"TargetID buffed"	linear 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop 0.4
 }
