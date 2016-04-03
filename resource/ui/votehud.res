@@ -11,7 +11,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"TFFatLineBorder"
-				
+		
 		"PassedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -393,7 +393,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"TFFatLineBorder"
-				
+		
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -459,7 +459,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"TFFatLineBorder"
-				
+		
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -527,7 +527,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaqueVote"
+		"border"			"TFFatLineBorderOpaque"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
@@ -559,7 +559,7 @@
 			"wrap"			"0"
 			"fgcolor"		"255 255 255 255"
 		}
-									
+		
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"

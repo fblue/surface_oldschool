@@ -1027,7 +1027,7 @@
 		"xpos"					"c5"
 		"ypos"					"65"
 		"zpos"					"1"
-		"wide"					"300"
+		"wide"					"0"
 		"tall"					"350"
 		"visible"				"0"
 		"PaintBackgroundType"	"2"
